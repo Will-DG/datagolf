@@ -2,9 +2,9 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-win_url = 'https://www.playnow.com/sports?action=GoAjaxEvType&ev_oc_grp_id=389510'
-top5_url = 'https://www.playnow.com/sports?action=GoAjaxEvType&ev_oc_grp_id=390191'
-top20_url = 'https://www.playnow.com/sports?action=GoAjaxEvType&ev_oc_grp_id=391551'
+win_url = 'https://www.playnow.com/sports?action=GoAjaxEvType&ev_oc_grp_id=389569'
+top5_url = 'https://www.playnow.com/sports?action=GoAjaxEvType&ev_oc_grp_id=391235'
+top20_url = 'https://www.playnow.com/sports?action=GoAjaxEvType&ev_oc_grp_id=391610'
 
 
 r = requests.get(win_url)
